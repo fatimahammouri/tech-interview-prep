@@ -1,0 +1,14 @@
+function findEvenNumbers(array){
+  //create a result array
+  //iterate over the array
+  //if the curren number is even push it into the result array
+  //return the result array
+  var result =[];
+  for(var i =0; i < array.length; i++){
+    if(array[i] % 2 === 0){
+      result.push(array.indexOf(array[i]));
+    }
+  }
+  return result;
+}
+//findEvenNumbers([2, 5, 3, 4])
